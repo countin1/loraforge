@@ -7,7 +7,8 @@
 import os
 import datetime
 import numpy as np
-from typing import Dict, List, Optional
+from scipy import stats as sp_stats
+from typing import Dict, List
 from .stats import paired_t_test, cohens_d, rule_score
 
 
@@ -123,7 +124,3 @@ class ModelComparator:
             f.write("\n")
 
         return report_path
-
-
-# 需要导入 scipy
-from scipy import stats as sp_stats
