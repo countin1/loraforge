@@ -1,0 +1,25 @@
+[project]
+name = "loraforge"
+version = "0.1.0"
+description = "End-to-end LoRA/QLoRA fine-tuning and evaluation pipeline for LLMs"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "torch>=2.0.0",
+    "transformers>=4.30.0",
+    "peft>=0.4.0",
+    "datasets>=2.14.0",
+    "accelerate>=0.21.0",
+    "bitsandbytes>=0.40.0",
+    "scipy>=1.10.0",
+    "numpy>=1.24.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ruff"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
