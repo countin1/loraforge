@@ -1,3 +1,7 @@
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![CI](https://github.com/countin1/loraforge/actions/workflows/ci.yml/badge.svg)](https://github.com/countin1/loraforge/actions/workflows/ci.yml)
+
 # 🔧 LoRAForge — 大模型微调 Pipeline
 
 > 端到端的 LoRA/QLoRA 微调 + 评测 pipeline，从数据准备到统计验证。
